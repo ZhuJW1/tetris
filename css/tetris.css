@@ -1,0 +1,122 @@
+body{
+	background-color: #1c1c1c;
+}
+.panel{
+	width: 520px;
+	margin: 0 auto;
+
+	background: #223;
+}
+header{
+	width: 192px;
+	float: right;
+
+	text-align: center;
+	color: #aaa;
+}
+
+header h1{
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+header #newgamebutton{
+	display: block;
+	margin: 20px auto;
+
+    width: 100px;
+	padding: 10px 10px;
+
+	background-color: #8f7a66;
+
+	font-family: Arial;
+	color: white;
+
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+header #newgamebutton:hover{
+	background-color: #9f8b77
+}
+
+header p{
+	font-family: Arial;
+	font-size: 35px;
+	margin: 0 auto;
+}
+
+.next{
+	margin: 40px auto;
+}
+.next span{
+	font-family: Arial;
+	font-size: 35px;
+	margin: 0 auto;
+}
+
+#grid-container{
+	width: 320px;
+	height: 640px;
+
+	border: 4px solid #6b6b6b;
+
+	position: relative;
+}
+
+.grid-cell{
+	width: 26px;
+	height: 26px;
+
+	border: 3px solid #223;
+	background-color: #223;
+
+	position: absolute;
+}
+
+.form-cell{
+	width: 26px;
+	height: 26px;
+
+	border: 3px solid;
+
+	position: absolute;
+}
+
+.predictform-cell{
+	width: 26px;
+	height: 26px;
+
+	border: 3px solid;
+
+	position: absolute;
+
+	opacity:0.2;
+}
+
+#nextcontainer{
+	width: 160px;
+	height: 160px;
+
+	position: relative;
+}
+
+.nextgrid-cell{
+	width: 26px;
+	height: 26px;
+
+	border: 3px solid #223;
+
+	position: absolute;
+}
+
+.linedelate{
+	width: 320px;
+	height: 32px;
+
+	background-color: #aaa;
+
+	position: absolute;
+	left: 0;
+}
